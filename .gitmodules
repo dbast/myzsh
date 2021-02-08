@@ -1,0 +1,19 @@
+[submodule "conda-zsh-completion"]
+	path = conda-zsh-completion
+	url = ../../esc/conda-zsh-completion.git
+[submodule "zsh-autosuggestions"]
+	path = zsh-autosuggestions
+	url = ../../zsh-users/zsh-autosuggestions
+[submodule "zsh-git-prompt"]
+	path = zsh-git-prompt
+	url = ../../olivierverdier/zsh-git-prompt
+[submodule "zsh-history-substring-search"]
+	path = zsh-history-substring-search
+	url = ../../zsh-users/zsh-history-substring-search
+[submodule "zsh-z"]
+	path = zsh-z
+	url = ../../agkozak/zsh-z
+[submodule "fzf"]
+	path = fzf
+	url = ../../junegunn/fzf.git
+	shallow = true
