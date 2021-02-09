@@ -17,3 +17,6 @@
 	path = fzf
 	url = ../../junegunn/fzf.git
 	shallow = true
+[submodule "git-prompt.zsh"]
+	path = git-prompt.zsh
+	url = ../../woefe/git-prompt.zsh.git
