@@ -3,10 +3,7 @@ source $HOME/.myzsh/git-prompt.zsh/git-prompt.zsh
 source $HOME/.myzsh/zsh-z/zsh-z.plugin.zsh
 #PROMPT='%B%m%~%b$(git_super_status) %# '
 
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
-  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-fi
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
