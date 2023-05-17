@@ -38,3 +38,5 @@ if type fzf &>/dev/null; then
 fi
 
 export PATH="$HOME/go/bin:$PATH"
+
+alias code="codium --add"
