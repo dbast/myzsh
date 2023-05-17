@@ -17,3 +17,5 @@ if type fd &>/dev/null; then
       fd --type d --hidden --follow --exclude ".git" . "$1"
     }
 fi
+
+export FZF_DEFAULT_OPTS="--layout=reverse --ansi --preview-window 'right:60%' --preview 'bat --style=numbers,changes --wrap never --color always {} 2> /dev/null || tree {}'"
