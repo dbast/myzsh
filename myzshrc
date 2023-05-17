@@ -36,3 +36,5 @@ bindkey '^[[B' history-substring-search-down
 if type fzf &>/dev/null; then
     source $HOME/.myzsh/fzf.zsh
 fi
+
+export PATH="$HOME/go/bin:$PATH"
