@@ -13,10 +13,6 @@
 [submodule "zsh-z"]
 	path = zsh-z
 	url = ../../agkozak/zsh-z
-[submodule "fzf"]
-	path = fzf
-	url = ../../junegunn/fzf.git
-	shallow = true
 [submodule "git-prompt.zsh"]
 	path = git-prompt.zsh
 	url = ../../woefe/git-prompt.zsh.git
