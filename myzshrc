@@ -1,7 +1,5 @@
-#source $HOME/.myzsh/zsh-git-prompt/zshrc.sh
 source $HOME/.myzsh/git-prompt.zsh/git-prompt.zsh
 source $HOME/.myzsh/zsh-z/zsh-z.plugin.zsh
-#PROMPT='%B%m%~%b$(git_super_status) %# '
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 

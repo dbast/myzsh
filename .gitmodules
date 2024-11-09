@@ -4,9 +4,6 @@
 [submodule "zsh-autosuggestions"]
 	path = zsh-autosuggestions
 	url = ../../zsh-users/zsh-autosuggestions
-[submodule "zsh-git-prompt"]
-	path = zsh-git-prompt
-	url = ../../olivierverdier/zsh-git-prompt
 [submodule "zsh-history-substring-search"]
 	path = zsh-history-substring-search
 	url = ../../zsh-users/zsh-history-substring-search
