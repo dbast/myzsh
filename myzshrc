@@ -30,12 +30,11 @@ source $HOME/.myzsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
-if type fzf &>/dev/null; then
-    source $HOME/.myzsh/fzf.zsh
-fi
-
 export PATH="$HOME/go/bin:$PATH"
 
 alias code="codium --add"
 eval "$(direnv hook zsh)"
 eval "$(pixi completion --shell zsh)"
+if type fzf &>/dev/null; then
+    source $HOME/.myzsh/fzf.zsh
+fi
