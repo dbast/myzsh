@@ -28,6 +28,10 @@ source $HOME/.myzsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
+source $HOME/.myzsh/zsh-github-copilot/zsh-github-copilot.plugin.zsh
+bindkey '^E' zsh_gh_copilot_explain  # bind Ctrl+E to explain
+bindkey '^V' zsh_gh_copilot_suggest  # bind Ctrl+V to suggest
+
 export PATH="$HOME/go/bin:$PATH"
 
 eval "$(pixi completion --shell zsh)"
@@ -35,6 +39,7 @@ eval "$(direnv hook zsh)"
 if type fzf &>/dev/null; then
     source $HOME/.myzsh/fzf.zsh
 fi
+eval "$(gh copilot alias -- zsh)"
 
 alias code="code --add"
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"

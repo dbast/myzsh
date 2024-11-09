@@ -3,13 +3,16 @@
 	url = ../../esc/conda-zsh-completion.git
 [submodule "zsh-autosuggestions"]
 	path = zsh-autosuggestions
-	url = ../../zsh-users/zsh-autosuggestions
+	url = ../../zsh-users/zsh-autosuggestions.git
 [submodule "zsh-history-substring-search"]
 	path = zsh-history-substring-search
-	url = ../../zsh-users/zsh-history-substring-search
+	url = ../../zsh-users/zsh-history-substring-search.git
 [submodule "zsh-z"]
 	path = zsh-z
-	url = ../../agkozak/zsh-z
+	url = ../../agkozak/zsh-z.git
 [submodule "git-prompt.zsh"]
 	path = git-prompt.zsh
 	url = ../../woefe/git-prompt.zsh.git
+[submodule "zsh-github-copilot"]
+	path = zsh-github-copilot
+	url = ../../loiccoyle/zsh-github-copilot.git
