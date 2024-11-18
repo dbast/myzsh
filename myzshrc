@@ -43,7 +43,7 @@ eval "$(gh copilot alias -- zsh)"
 
 alias code="code --add"
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
-alias e="eza --icons --git -l --header"
+alias e="eza --icons --git -l --header --hyperlink"
 
 source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
 PS1='$(kube_ps1)'$PS1
